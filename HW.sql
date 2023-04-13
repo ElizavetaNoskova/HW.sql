@@ -1,6 +1,7 @@
 CREATE
 DATABASE skypro;
-\c
+\
+c
 skypro;
 CREATE TABLE employee
 (
