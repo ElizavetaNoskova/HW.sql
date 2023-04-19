@@ -92,7 +92,7 @@ full join city on employee.city_id = city.city_id;
 
 select employee.first_name, city.city_name
 from employee
-left join city on employee.city_id = city.city_id;
+cross join city;
 
 select city.city_name
 from employee
